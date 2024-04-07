@@ -101,7 +101,7 @@ from absl import flags
 
 import tensorflow.compat.v2 as tf
 from google.protobuf import text_format
-from object_detection import exporter_lib_v2
+import exporter_lib_v2
 from object_detection.protos import pipeline_pb2
 
 tf.enable_v2_behavior()
